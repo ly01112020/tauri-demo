@@ -1,0 +1,29 @@
+.ztPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: stretch;
+  border-top:1px solid #ddd;
+  .ztSide{
+    min-width: 240px;
+    height: 100%;
+    .ztMenu{
+      height: 100%;
+      backdrop-filter: blur(10px);
+    }
+  }
+  .ztMain{
+    flex: 1;
+    height: 100%;
+    padding: 24px;
+    .ztRow{
+      margin-top: 16px;
+    }
+  }
+
+  .ztFileContainer{
+    margin-top: 16px;
+    padding: 16px;
+    background-color: antiquewhite;
+  }
+}
